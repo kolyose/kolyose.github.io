@@ -1,0 +1,20 @@
+{
+  "name": "telegram-contest",
+  "version": "1.0.0",
+  "description": "Canvas-based charts application",
+  "main": "index.mjs",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "kolesnik.s.e@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "worker-loader": "^2.0.0"
+  }
+}
